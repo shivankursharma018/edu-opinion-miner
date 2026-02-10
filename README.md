@@ -14,12 +14,32 @@
    python run_once.py
    ```
 
-3. Train model:
+   Install dataset from [here](https://www.kaggle.com/datasets/shivankursharma018/educational-feedback-opinions/)
+
+3. Directory structure:
+   ```
+   edu-opinion-miner/
+    │
+    ├── app.py
+    ├── run_once.py
+    ├── requirements.txt
+    ├── README.md
+    ├── LICENSE
+    ├── .gitignore
+    │
+    ├── data/
+    ├── models/
+    ├── notebooks/
+    ├── src/
+    └── venv/ # Virtual environment (not required in repo)
+   ```
+
+4. Train model:
    ```
    python src/train_model.py
    ```
 
-4. Run dashboard:
+5. Run dashboard:
    ```
    streamlit run app/streamlit_app.py
    ```
@@ -29,7 +49,6 @@
 - `data/` - Datasets (raw, processed, sample)
 - `models/` - Trained ML models
 - `src/` - Core Python modules
-- `app/` - Streamlit dashboard
 
 ## Usage
 
