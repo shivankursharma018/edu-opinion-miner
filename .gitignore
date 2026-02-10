@@ -1,0 +1,25 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environment ---
+venv/
+.venv/
+env/
+
+# --- Data & Models (Recommended for ML projects) ---
+# It is usually best practice to ignore the actual data/models
+# but keep the folder structure. 
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
