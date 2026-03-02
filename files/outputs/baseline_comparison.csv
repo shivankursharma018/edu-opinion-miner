@@ -1,0 +1,4 @@
+Method,Accuracy,Aspect-Aware,Domain-Trained
+TextBlob (baseline),60.67%,No,No
+VADER (baseline),58.43%,No,No
+Our ABSA System,66.67%,Yes,Yes

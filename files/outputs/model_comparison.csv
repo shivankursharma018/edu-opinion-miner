@@ -1,0 +1,6 @@
+Aspect,Best Model,Accuracy,NB,SVM,RF
+course_content,Naive Bayes,100.00%,100.00%,100.00%,100.00%
+teaching_quality,Naive Bayes,75.00%,75.00%,75.00%,75.00%
+assessment,SVM,75.00%,50.00%,75.00%,50.00%
+resources,Naive Bayes,33.33%,33.33%,33.33%,33.33%
+infrastructure,Naive Bayes,50.00%,50.00%,50.00%,50.00%
